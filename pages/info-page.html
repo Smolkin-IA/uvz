@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация</title>
+    <link rel="stylesheet" href="../styles/page-styles.css">
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <a class="header__burger" id="burger-button">
+            <img src="../img/burger-menu.svg" alt="burger-menu">
+        </a>
+        <div class="header__company">
+            <a href="../index.html">
+                <img src="../img/logo.svg" alt="logo">
+            </a>
+            <div class="line"></div>
+            <p>“ОАО” УРАЛЬСКОЕ КОНСТРУКТОРСКОЕ БЮРО ТРАНСПОРТНОГО МАШИНОСТРОЕНИЯ</p>
+        </div>
+        <div class="header__links">
+            <a href="#">Продукция</a>
+            <a href="#">История</a>
+            <a href="#">Акционерам</a>
+            <a href="#">Корпорация</a>
+            <a href="#">Закупки</a>
+            <a href="#">Контакты</a>
+        </div>
+        <a class="header__search" href="#">
+            <img src="../img/search-icon.png" alt="search-button">
+        </a>
+    </div>
+    <div class="burger-menu" id="burgerMenu">
+        <div class="burger-menu__item">
+            <a href="#">Гланая</a>
+        </div>
+        <div class="burger-menu__item">
+            <a href="#">О компании</a>
+        </div>
+        <div class="burger-menu__item">
+            <a href="#">Карьера</a>
+        </div>
+        <div class="burger-menu__item">
+            <a href="#">Контакты</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main__info">
+            <div class="main__info__img">
+                <img src="../img/block-3.jpeg" alt="info-img">
+            </div>
+            <ul>
+                <li>Технические характеристики:</li>
+                <li>Год выпуска – 1974 - 1990.</li>
+                <li>Всего выпущено – более 20 000 ед.</li>
+                <li>Масса в боевом положении, т – 41,5 (44,5).</li>
+                <li>Мощность двигателя, л.с. – 780.</li>
+                <li>Максимальная скорость по шоссе, км/ч – 60.</li>
+                <li>Запас хода по шоссе, км - 500</li>
+                <li>Экипаж, чел. - 3.</li>
+                <li>Вооружение: 125-мм пушка, 7,62-мм пулемет ПКТ, 12,7-мм пулемет НСВТ-12,7.</li>
+                <li>Боекомплект, выстр/патр (7,62-мм/12,7-мм)/аэрозольных гранат - 44/2000/300/8</li>
+            </ul>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt id aliquet risus feugiat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Felis eget velit aliquet sagittis id consectetur. Turpis egestas maecenas pharetra convallis posuere. Lectus magna fringilla urna porttitor rhoncus dolor. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Viverra adipiscing at in tellus integer feugiat scelerisque. Ac tortor dignissim convallis aenean et tortor at risus viverra. Nunc consequat interdum varius sit amet mattis vulputate. Tortor posuere ac ut consequat semper viverra nam libero. Eget magna fermentum iaculis eu non. Gravida neque convallis a cras semper auctor neque vitae. Bibendum at varius vel pharetra vel turpis nunc eget. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt id aliquet risus feugiat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Felis eget velit aliquet sagittis id consectetur. Turpis egestas maecenas pharetra convallis posuere. Lectus magna fringilla urna porttitor rhoncus dolor. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Viverra adipiscing at in tellus integer feugiat scelerisque. Ac tortor dignissim convallis aenean et tortor at risus viverra. Nunc consequat interdum varius sit amet mattis vulputate. Tortor posuere ac ut consequat semper viverra nam libero. Eget magna fermentum iaculis eu non. Gravida neque convallis a cras semper auctor neque vitae. Bibendum at varius vel pharetra vel turpis nunc eget. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant.</p>
+    </div>
+    <div class="footer">
+        <div class="footer__block">
+            <div class="footer__block__item">
+                <div class="footer__block__item__title" onclick="toggleMenu(this)">
+                    <h2>Главное</h2>
+                    <img src="../img/Plus.svg" alt="plus" class="plus">
+                </div>
+                <div class="footer__block__item__links">
+                    <a href="#">Продукция</a>
+                    <a href="#">Новости</a>
+                    <a href="#">Медиа</a>
+                </div>
+            </div>
+            <div class="footer__block__item">
+                <div class="footer__block__item__title" onclick="toggleMenu(this)">
+                    <h2>О компании</h2>
+                    <img src="../img/Plus.svg" alt="plus" class="plus">
+                </div>
+                <div class="footer__block__item__links">
+                    <a href="#">Выдающиеся люди</a>
+                    <a href="#">Поставщикам</a>
+                    <a href="#">Лицензирование</a>
+                </div>
+            </div>
+            <div class="footer__block__item">
+                <div class="footer__block__item__title" onclick="toggleMenu(this)">
+                    <h2>Карьера</h2>
+                    <img src="../img/Plus.svg" alt="plus" class="plus">
+                </div>
+                <div class="footer__block__item__links">
+                    <a href="#">Вакансии</a>
+                    <a href="#">Студентам</a>
+                </div>
+            </div>
+            <div class="footer__block__item">
+                <div class="footer__block__item__title" onclick="toggleMenu(this)">
+                    <h2>Контакты</h2>
+                    <img src="../img/Plus.svg" alt="plus" class="plus">
+                </div>
+                <div class="footer__block__item__links">
+                    <a href="#">Официальные партнёры</a>
+                    <a href="#">Музей</a>
+                </div>
+            </div>
+            <img src="../img/logo.svg" alt="logo" class="footer__block__logo">
+        </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
